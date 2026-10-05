@@ -1,0 +1,19 @@
+.jun-cv-page .jun-nav [aria-current="page"] {color:var(--jun-teal);text-decoration:underline;text-underline-offset:.3em;}
+.jun-cv-intro {padding-block:36px 24px;}
+.jun-cv-page .jun-cv-intro h1 {font-size:48px;margin:0 0 20px;}
+.jun-cv-actions {display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;font-size:15px;}
+.jun-cv-viewer {display:block;width:100%;height:80vh;min-height:560px;border:1px solid var(--jun-rule);border-radius:8px;background:#edf2ee;}
+.jun-cv-help {font-size:14px;color:var(--jun-muted);padding-block:16px 28px;}
+.jun-cv-unavailable {padding-bottom:48px;color:var(--jun-muted);}
+@media(max-width:680px) {
+ .jun-cv-intro {padding-block:28px 20px;}
+ .jun-cv-page .jun-cv-intro h1 {font-size:38px;}
+ .jun-cv-actions p {flex-basis:100%;}
+ .jun-cv-viewer {height:70vh;min-height:420px;}
+}
+
+/* Bring the PDF closer to the desktop navigation and actions. */
+@media (min-width: 961px) {
+  .jun-cv-intro {padding-block:28px 20px;}
+  .jun-cv-help {padding-block:14px 22px;}
+}

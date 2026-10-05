@@ -1,0 +1,17 @@
+.jun-research-page .jun-nav [aria-current="page"] {color:var(--jun-teal);text-decoration:underline;text-underline-offset:.3em;}
+.jun-research-intro {padding-block:40px 28px;}
+.jun-research-page .jun-research-intro h1 {font-size:48px;margin-block:12px 18px;}
+.jun-research-content {max-width:820px;padding-bottom:32px;}
+.jun-research-page .jun-research-content h2 {font-size:28px;color:var(--jun-teal);margin:30px 0 18px;padding-top:24px;border-top:1px solid var(--jun-rule);}
+.jun-research-page .jun-research-content h3 {font-size:22px;margin:24px 0 12px;}
+.jun-research-page .jun-research-content p {margin:0 0 16px;}
+.jun-research-content ul {padding-left:22px;margin:12px 0 24px;}
+.jun-research-content li {margin-bottom:10px;}
+@media(max-width:680px) {
+ .jun-research-intro {padding-block:28px 18px;}
+ .jun-research-page .jun-research-intro h1 {font-size:38px;}
+ .jun-research-page .jun-research-content h2 {font-size:26px;}
+}
+.jun-research-content .jun-research-links {font-size:15px;}
+.jun-research-content blockquote {margin:20px 0;padding:12px 20px;border-left:3px solid var(--jun-teal);background:#edf2ee;}
+.jun-research-content blockquote p {margin:0;}

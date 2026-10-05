@@ -1,0 +1,29 @@
+.jun-teaching-page .jun-nav [aria-current="page"] {color:var(--jun-teal);text-decoration:underline;text-underline-offset:.3em;}
+.jun-teaching-intro {padding-block:40px 28px;}
+.jun-teaching-page .jun-teaching-intro h1 {font-size:48px;margin-block:12px 18px;}
+.jun-teaching-content {max-width:820px;padding-bottom:32px;}
+.jun-teaching-page .jun-teaching-content h2 {font-size:28px;color:var(--jun-teal);margin:30px 0 18px;padding-top:24px;border-top:1px solid var(--jun-rule);}
+.jun-teaching-page .jun-teaching-content h3 {font-size:22px;margin:24px 0 12px;}
+.jun-teaching-page .jun-teaching-content p {margin:0 0 16px;}
+.jun-teaching-content ul {padding-left:22px;margin:12px 0 24px;}
+.jun-teaching-content li {margin-bottom:10px;}
+@media(max-width:680px) {
+ .jun-teaching-intro {padding-block:28px 18px;}
+ .jun-teaching-page .jun-teaching-intro h1 {font-size:38px;}
+ .jun-teaching-page .jun-teaching-content h2 {font-size:26px;}
+}
+
+/* Keep course sections distinct with less desktop whitespace. */
+@media (min-width: 961px) {
+  .jun-teaching-intro {padding-block:32px 22px;}
+  .jun-teaching-page .jun-teaching-intro h1 {margin-block:10px 15px;}
+  .jun-teaching-content {padding-bottom:26px;}
+  .jun-teaching-page .jun-teaching-content h2 {margin:24px 0 15px;padding-top:20px;}
+  .jun-teaching-page .jun-teaching-content h3 {margin:20px 0 10px;}
+  .jun-teaching-page .jun-teaching-content p {margin-bottom:14px;}
+  .jun-teaching-content ul {margin-block:10px 20px;}
+  .jun-teaching-content li {margin-bottom:8px;}
+}
+
+/* The first heading follows the navigation divider; avoid a second rule. */
+.jun-teaching-page .jun-teaching-content > h2:first-child {border-top:0;padding-top:0;}

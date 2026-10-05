@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-label="Profile photo placeholder">
+<rect width="640" height="760" fill="#eceff1"/><circle cx="320" cy="260" r="118" fill="#bcc5cc"/>
+<path d="M112 686c16-164 104-250 208-250s192 86 208 250" fill="#bcc5cc"/>
+<text x="320" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#5f6b73">Replace with assets/img/prof_pic.jpg</text>
+</svg>

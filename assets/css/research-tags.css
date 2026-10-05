@@ -1,0 +1,36 @@
+.research-tag-list,.paper-research-tags,.publication-filter {display:flex;flex-wrap:wrap;align-items:center;gap:8px;}
+.research-tag-list {margin:16px 0;}
+.paper-research-tags {margin:8px 0 10px;}
+.research-tag {display:inline-block;border:1px solid var(--jun-rule,#b9c8c4);border-radius:999px;padding:4px 11px;font:500 14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--jun-teal,#246d65);background:transparent;}
+button.research-tag {min-height:44px;cursor:pointer;}
+button.research-tag:disabled {cursor:default;}
+button.research-tag:not(:disabled):hover {border-color:var(--jun-teal,#246d65);background:#e5eeeb;color:var(--jun-teal,#246d65);}
+button.research-tag[aria-pressed="true"] {background:var(--jun-teal,#246d65);border-color:var(--jun-teal,#246d65);color:#fff;}
+button.research-tag[aria-pressed="true"]:not(:disabled):hover {background:#154c45;border-color:#154c45;color:#fff;}
+button.research-tag:focus-visible {outline:3px solid var(--jun-teal,#246d65);outline-offset:3px;}
+.publication-filter {margin-bottom:24px;}
+.jun-home #publication-filter-status {color:var(--jun-muted);font-size:15px;}
+.jun-home h2.jun-section-label {font-family:inherit;font-size:13px;font-weight:600;line-height:1.6;letter-spacing:.12em;}
+.jun-home #publications {scroll-margin-top:24px;}
+.jun-home #publications .bibliography>li[hidden],.publication-filter[hidden],.publication-empty[hidden] {display:none!important;}
+
+/* Match the citation disclosure to the site's teal palette. */
+.bibliography div.bibtex figure.highlight {background:#edf2ee;border:1px solid #d9ded7;border-radius:8px;}
+.bibliography div.bibtex figure.highlight pre,.bibliography div.bibtex figure.highlight code {background:transparent;color:#192c32;}
+.bibliography div.bibtex figure.highlight span {color:#192c32;background:transparent;}
+.bibliography div.bibtex figure.highlight .na,.bibliography div.bibtex figure.highlight .nt,.bibliography div.bibtex figure.highlight .k {color:#246d65;}
+.bibliography div.bibtex figure.highlight .nc,.bibliography div.bibtex figure.highlight .nf {color:#154c45;}
+
+/* Paper topics are descriptive metadata; outlined pills are reserved for filters. */
+.paper-research-tags {gap:0;}
+.paper-research-tags .research-tag {border:0;border-radius:0;padding:0;background:transparent;font-weight:500;}
+.paper-research-tags .research-tag + .research-tag::before {content:"·";display:inline-block;margin:0 8px;color:var(--jun-muted,#596665);}
+
+/* Shared disclosure styling for selected papers and the complete bibliography. */
+.jun-home .bibliography div.hidden {display:none;}
+.jun-home .bibliography div.hidden.open {display:block;}
+.jun-home .bibliography div.abstract.hidden.open {border:1px dashed var(--jun-muted,#596665);padding:10px;margin-top:8px;font-size:15px;line-height:1.5;}
+.jun-home .bibliography div.abstract p {margin:0;text-align:justify;}
+
+/* Identify the site's author without implying a link. */
+.bibliography .author .author-self {font-style:normal;font-weight:600;color:var(--jun-ink,#192c32);text-decoration:none;}

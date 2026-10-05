@@ -1,0 +1,14 @@
+.jun-publications-page .jun-nav [aria-current="page"] {color:var(--jun-teal);text-decoration:underline;text-underline-offset:.3em;}
+.jun-publications-page .publications h2.bibliography {font-size:28px;margin:30px 0 22px;text-align:left;color:var(--jun-teal);}
+.jun-publications-page .publications {padding-bottom:32px;}
+.jun-publications-page .publications .row {margin-inline:0;}
+.jun-publications-page .publications .row > [class*="col-"] {max-width:100%;flex-basis:100%;padding-inline:0;}
+.jun-publications-page .publications ol.bibliography {list-style:none;}
+.jun-publications-page .publications .title {font-size:18px;}
+.jun-home.jun-publications-page .jun-footer {border-top:0;}
+
+/* A tighter year-to-year rhythm on desktop. */
+@media (min-width: 961px) {
+  .jun-publications-page .publications h2.bibliography {margin:24px 0 18px;}
+  .jun-publications-page .publications {padding-bottom:26px;}
+}
